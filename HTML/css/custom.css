@@ -1,0 +1,32 @@
+/* Custom styles for closer social media icons */
+.socials-square {
+    gap: 0.5rem;
+    justify-content: center !important;
+}
+
+.socials-square__item {
+    margin: 0;
+}
+
+/* Reduce spacing between portfolio image and tags */
+.gallery__descr {
+    padding-top: 1rem !important;
+}
+
+.gallery__descr .card__tags {
+    margin-top: 0.5rem !important;
+}
+
+/* Portfolio gallery: make custom images fill the square tile like the template dummy images */
+.gallery__link {
+    aspect-ratio: 1 / 1;
+}
+
+.gallery__link .gallery__image {
+    opacity: 1 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
